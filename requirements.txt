@@ -3,10 +3,13 @@ pandas
 numpy
 pymongo
 certifi
-pymongo[srv]==3.6
+pymongo>=4.6.1
 pymongo
+scikit-learn
 
 
 
 
 ##-e . ## helps in referring to the setup.py file and hence setting up the project setup 
+
+

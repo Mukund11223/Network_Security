@@ -26,7 +26,7 @@ def get_requirements()->List[str]:
 
     return requirement_lst
 
-
+## setting up the metadata 
 setup(
     name="Network Security",
     version="0.0.1",
