@@ -46,3 +46,18 @@ DATA_VALIDATION_DRIFT_REPORT_DIR:str="drift_report"
 DATA_VALIDATION_DRIFT_REPORT_FILE_NAME:str="report.yaml"
 
 
+"""
+data transformation related content start with DATA_TRANSFORMATION VAR NAME
+"""
+
+DATA_TRANSFORMATION_DIR_NAME:str="data_transformation"
+DATA_TRANSFORMATION_TRANSFORMED_DATA_DIR:str="transformed"
+DATA_TRANSFORMATION_TRANSFORMED_OBJECT_DIR:str="tranformed_object"
+PREPROCESSING_OBJECT_FILE_NAME = "preprocessing.pkl"
+
+## parameters for knn imputer to replace the missing values
+DATA_TRANSFORMATION_IMPUTER_PARAMS:dict={
+    "missing_values":np.nan,
+    "n_neighbors":3,
+    "weights":"uniform",
+}
